@@ -6,3 +6,13 @@
 //     $('.hamburger-menu').removeClass('active');
 //   });
 // })
+$(document).ready(function() {
+  $('li').click(function() {
+    if ($(this).children('.drop-down-menu').length > 1) {
+      $('.drop-down-menu').slideUp();
+    } else {
+      $('.drop-down-menu').slideUp();
+      $(this).children('.drop-down-menu').slideToggle();
+    }
+  });
+});

@@ -51,9 +51,7 @@ header {
 }
 .drop-down-menu {
   position: absolute;
-}
-.drop-down-item {
-
+  display: none;
 }
 .hamburger-menu {
   position: absolute;

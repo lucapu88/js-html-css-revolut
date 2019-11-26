@@ -1,5 +1,5 @@
 
-//al click su un elemento in lista il sottomenù appare ogni volta che clicco su un elemento, facendo scoparire quello cliccato in precedenza
+//al click su un elemento in lista, il sottomenù appare ogni volta che clicco su un elemento facendo scoparire quello cliccato in precedenza
 $(document).ready(function() {
   $('li').click(function() {
     if ($(this).children('.drop-down-menu').length > 1) {

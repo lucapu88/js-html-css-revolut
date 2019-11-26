@@ -92,6 +92,7 @@ li:hover{
   font-size: 35px;
   text-decoration: none;
 }
+
 @media screen and (max-width: 1000px)
 {
     .header-right ul {
@@ -110,7 +111,7 @@ li:hover{
       background: #D2007E;
       border-radius: 30px;
     }
-
+    
     .hamburger-menu.active {
       display: block;
     }

@@ -49,6 +49,9 @@ header {
   background: #D2007E;
   border-radius: 30px;
 }
+li:hover{
+  cursor: pointer;
+}
 .drop-down-menu {
   position: absolute;
   display: none;

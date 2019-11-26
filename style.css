@@ -52,6 +52,7 @@ header {
 .drop-down-menu {
   position: absolute;
   display: none;
+  background-color: white;
 }
 .hamburger-menu {
   position: absolute;

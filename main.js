@@ -9,6 +9,7 @@ $(document).ready(function() {
       $(this).children('.drop-down-menu').slideToggle();
     }
   });
+  //Se viene visualizzato al di sotto dei 1000px
   $('.header-right > a').click(function() { //cliccando sull'icona dell'hamburger faccio apparire il menu
     $('.hamburger-menu').addClass('active');
   });

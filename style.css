@@ -67,7 +67,7 @@ li:hover{
   height: 100%;
   min-width: 100vw;
   min-height: 100vh;
-  background: #2B3F58;
+  background: white;
 }
 .hamburger-menu ul {
   display: flex;
@@ -78,7 +78,7 @@ li:hover{
   list-style: none;
 }
 .hamburger-menu ul li a {
-  color: white;
+  color: #ADAEAF;
   text-decoration: none;
   font-size: 25px;
   border-bottom: 2px solid white;
@@ -88,7 +88,7 @@ li:hover{
   position: absolute;
   right: 20px;
   top: 20px;
-  color: white;
+  color: #ADAEAF;
   font-size: 35px;
   text-decoration: none;
 }
@@ -102,8 +102,13 @@ li:hover{
       height: 100%;
       line-height: 70px;
       float: right;
-      color: lightgrey;
       font-size: 20px;
+    }
+    .cta {
+      padding: 10px 20px;
+      color: white;
+      background: #D2007E;
+      border-radius: 30px;
     }
 
     .hamburger-menu.active {
